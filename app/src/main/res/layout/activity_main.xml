@@ -10,7 +10,6 @@
         android:id="@+id/nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Loja de tenis"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="16dp"
@@ -20,7 +19,6 @@
         android:id="@+id/descricao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tenis e Meias"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nome"
         android:layout_marginTop="2dp"
@@ -32,7 +30,6 @@
         android:layout_width="match_parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_height="wrap_content"
-        android:text="19,90"
         app:layout_constraintTop_toBottomOf="@id/descricao"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp" />
